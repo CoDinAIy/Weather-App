@@ -1,0 +1,62 @@
+body, html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date {
+    font-size: 34px;
+    padding: 4em 0em 0.25em 0em;
+    text-align: center;
+}
+
+.location {
+    font-size: 36px;
+    padding: 0em 0em 1em 0em;
+}
+
+.weatherContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0em 0em 3em 0em;
+    gap: 4em;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temperature {
+    font-size: 60px;
+    display: flex;
+    align-self: center;
+}
+
+.conditionText {
+    font-size: 36px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit {
+    padding: 0.5em;
+    margin: 1em;
+}
